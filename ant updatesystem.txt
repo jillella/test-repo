@@ -1,4 +1,3 @@
-
 jillella@Venkatas-MBP platform % ant updatesystem
 NOTE: Picked up JDK_JAVA_OPTIONS: --add-opens java.xml/com.sun.org.apache.xpath.internal=ALL-UNNAMED --add-exports java.xml/com.sun.org.apache.xpath.internal=ALL-UNNAMED --add-opens 
 java.xml/com.sun.org.apache.xpath.internal.objects=ALL-UNNAMED --add-exports java.xml/com.sun.org.apache.xpath.internal.objects=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-exports 
@@ -1016,7 +1015,7 @@ build:
      [echo] KOMP sstb2bstorefront - acceleratorstorefrontcommons
      [echo] Installing the following addons: sstb2baccaddon,commerceorgaddon,smarteditaddon,assistedservicestorefront
      [echo] Storefront templates found in command line : yacceleratorstorefront
-   [delete] Deleting: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/null1286166953
+   [delete] Deleting: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/null266588578
      [echo] AddOn name list: sstb2baccaddon,commerceorgaddon,smarteditaddon,assistedservicestorefront
      [echo] ------------------Instaling addon : sstb2baccaddon---------------
      [echo] Generate project.properties file from template /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstb2baccaddon/project.properties.template
@@ -1350,10 +1349,10 @@ build:
      [copy] Copying 61 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstb2bstorefront/web/webroot/_ui/responsive/common/js
      [copy] Copying 82 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstb2bstorefront/web/webroot/_ui/responsive/common/js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstb2bstorefront/web/webroot/_ui/shared/js
-     [exec] Configuration file: '/Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/wro.properties' does not exist. Using default configuration.
-     [exec] NOTE: Picked up JDK_JAVA_OPTIONS: --add-opens java.xml/com.sun.org.apache.xpath.internal=ALL-UNNAMED --add-exports java.xml/com.sun.org.apache.xpath.internal=ALL-UNNAMED --add-opens 
+     [exec] NOTE: Picked up JDK_JAVA_OPTIONS: --add-opens java.xml/com.sun.org.apache.xpath.internal=ALL-UNNAMED --add-exports java.xml/com.sun.org.apache.xpath.internal=ALL-UNNAMED --add-opens Configuration file: '/Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/wro.properties' does not exist. Using default configuration.
      [exec] java.xml/com.sun.org.apache.xpath.internal.objects=ALL-UNNAMED --add-exports java.xml/com.sun.org.apache.xpath.internal.objects=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-exports 
      [exec] java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED
+     [exec] 
      [exec] processing group: accelerator-combined.css
      [exec] processing group: accelerator-combined.js
      [exec] file size: accelerator-combined.js -> 625612bytes
@@ -1368,7 +1367,7 @@ build:
      [exec] processing group: sst_responsive.js
      [exec] file size: sst_responsive.js -> 2bytes
      [exec] /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstb2bstorefront/web/webroot/_ui/wro-build/sst_responsive.js (2bytes) has been created!
-     [exec] Processing took: 30430ms
+     [exec] Processing took: 32355ms
      [exec] Configuration file: '/Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/wro.properties' does not exist. Using default configuration.
      [exec] NOTE: Picked up JDK_JAVA_OPTIONS: --add-opens java.xml/com.sun.org.apache.xpath.internal=ALL-UNNAMED --add-exports java.xml/com.sun.org.apache.xpath.internal=ALL-UNNAMED --add-opens 
      [exec] java.xml/com.sun.org.apache.xpath.internal.objects=ALL-UNNAMED --add-exports java.xml/com.sun.org.apache.xpath.internal.objects=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-exports 
@@ -1379,55 +1378,14 @@ build:
      [exec] processing group: addons_responsive.js
      [exec] file size: addons_responsive.js -> 265012bytes
      [exec] /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstb2bstorefront/web/webroot/_ui/wro-build/addons_responsive.js (265012bytes) has been created!
-     [exec] Processing took: 3529ms
+     [exec] Processing took: 3852ms
      [echo] building extension 'sstfulfilmentprocess'...
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstfulfilmentprocess
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstfulfilmentprocess
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstfulfilmentprocess/classes
-   [yjavac] Compiling 121 source files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstfulfilmentprocess/classes
-   [yjavac] Note: Some input files use or override a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
-   [yjavac] Note: Some input files use or override a deprecated API that is marked for removal.
-   [yjavac] Note: Recompile with -Xlint:removal for details.
-   [yjavac] Note: Some input files use unchecked or unsafe operations.
-   [yjavac] Note: Recompile with -Xlint:unchecked for details.
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstfulfilmentprocess_srctouch
-[testClassesScanner] ---------------------------------------------------------------
-[testClassesScanner] Warning: you're using at least one deprecated extension!
-[testClassesScanner] Please note that they may not be available in future releases.
-[testClassesScanner] 
-[testClassesScanner] Deprecated extensions: [acceleratorstorefrontcommons, acceleratorwebservicesaddon, adaptivesearchsamplesaddon, addonsupport, admincockpit, assistedservicepromotionaddon, assistedservicestorefront, cmscockpit, cmsoccaddon, cockpit, commerceorgaddon, commerceorgsamplesaddon, customerticketingaddon, multicountrysampledataaddon, orderselfserviceaddon, pcmbackofficesamplesaddon, personalizationpromotionssampledataaddon, personalizationsampledataaddon, personalizationsearchsamplesaddon, personalizationyprofilesampledataaddon, promotionenginesamplesaddon, smarteditaddon, textfieldconfiguratortemplateaddon]
-[testClassesScanner] ---------------------------------------------------------------
-[testClassesScanner] Found 57 sstfulfilmentprocess testclasses in 3.187 ms
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstfulfilmentprocess_testsrctouch
      [echo] building extension 'sstinitialdata'...
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstinitialdata
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstinitialdata
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstinitialdata/classes
-   [yjavac] Compiling 5 source files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstinitialdata/classes
-   [yjavac] Note: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstinitialdata/src/com/sst/initialdata/constants/SstinitialdataConstants.java uses or overrides a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstinitialdata_srctouch
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstinitialdata_testsrctouch
      [echo] building extension 'sstpcmsso'...
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpcmsso
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpcmsso
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpcmsso/web/webroot/WEB-INF/classes
-   [yjavac] Compiling 1 source file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpcmsso/web/webroot/WEB-INF/classes
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpcmsso_srctouch
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpcmsso/resources/sstpcmsso
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpcmsso_testsrctouch
      [echo] building extension 'sstpimstore'...
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstore
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstore
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstore/classes
-   [yjavac] Compiling 3 source files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstore/classes
-   [yjavac] Note: Some input files use or override a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstore_srctouch
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstore_testsrctouch
      [echo] building extension 'sstpimstorefront'...
      [echo] sstpimstorefront_before_build
+   [delete] Deleting: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/resources/wro_addons.xml
      [echo] Found commonweb extension:  acceleratorstorefrontcommons
      [echo] copyCommonWebToExtension CommonWebExtension=acceleratorstorefrontcommons CommonWebResource=/src target=sstpimstorefront
      [echo] Synchronizing <acceleratorstorefrontcommons>/commonweb with <sstb2bstore>/web/commonwebsrc/
@@ -1438,15 +1396,6 @@ build:
      [copy] Copying /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/core-accelerator/deprecated/acceleratorstorefrontcommons/commonweb/webroot/WEB-INF/lib/json-taglib-0.4.1.jar to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstb2bstore/web/webroot/WEB-INF/lib/json-taglib-0.4.1.jar
      [copy] Copying /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/core-accelerator/deprecated/acceleratorstorefrontcommons/commonweb/webroot/WEB-INF/lib/jsoup-1.14.2.jar to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstb2bstore/web/webroot/WEB-INF/lib/jsoup-1.14.2.jar
      [echo] KOMP sstpimstorefront - acceleratorstorefrontcommons
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/WEB-INF/classes
-   [yjavac] Compiling 113 source files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/WEB-INF/classes
-   [yjavac] Note: Some input files use or override a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
-   [yjavac] Note: Some input files use or override a deprecated API that is marked for removal.
-   [yjavac] Note: Recompile with -Xlint:removal for details.
-   [yjavac] Note: Some input files use unchecked or unsafe operations.
-   [yjavac] Note: Recompile with -Xlint:unchecked for details.
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstorefront_CommonWeb_acceleratorstorefrontcommonssrctouch
      [echo] Synchronizing <acceleratorstorefrontcommons>/commonweb with <sstb2bstorefront>/web/commonwebsrc/
      [sync] Copying 113 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstb2bstorefront/web/commonwebsrc/acceleratorstorefrontcommons
      [copy] Copying 4 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstb2bstorefront/web/webroot/WEB-INF/lib
@@ -1463,27 +1412,6 @@ build:
      [copy] Copying /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/core-accelerator/deprecated/acceleratorstorefrontcommons/commonweb/webroot/WEB-INF/lib/json-taglib-0.4.1.jar to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/WEB-INF/lib/json-taglib-0.4.1.jar
      [copy] Copying /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/core-accelerator/deprecated/acceleratorstorefrontcommons/commonweb/webroot/WEB-INF/lib/jsoup-1.14.2.jar to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/WEB-INF/lib/jsoup-1.14.2.jar
      [echo] KOMP sstpimstorefront - acceleratorstorefrontcommons
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront
-   [yjavac] Compiling 367 source files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/WEB-INF/classes
-   [yjavac] Note: Some input files use or override a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
-   [yjavac] Note: Some input files use or override a deprecated API that is marked for removal.
-   [yjavac] Note: Recompile with -Xlint:removal for details.
-   [yjavac] Note: Some input files use unchecked or unsafe operations.
-   [yjavac] Note: Recompile with -Xlint:unchecked for details.
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/testclasses
-   [yjavac] Compiling 46 source files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/testclasses
-   [yjavac] Note: Some input files use or override a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
-   [yjavac] Note: Some input files use or override a deprecated API that is marked for removal.
-   [yjavac] Note: Recompile with -Xlint:removal for details.
-   [yjavac] Note: Some input files use unchecked or unsafe operations.
-   [yjavac] Note: Recompile with -Xlint:unchecked for details.
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstorefront_srctouch
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/resources/sstpimstorefront
-[testClassesScanner] Found 46 sstpimstorefront webtestclasses in 1.418 ms
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstorefront_testsrctouch
      [echo] sstpimstorefront_after_build
      [echo] No impex templates found for sstpimstorefront
      [echo] sstpimstorefront_generate_wro_addons_xml for core
@@ -1590,7 +1518,6 @@ build:
      [echo] sstpimstorefront_generate_wro_addons_xml for acceleratorstorefrontcommons
      [echo] sstpimstorefront_generate_wro_addons_xml for addonsupport
      [echo] copyAddOnToExtension addOnExtension=commerceorgaddon addOnResource=/web/src/ target=sstpimstorefront
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstorefront_addon_commerceorgaddonsrctouch
      [echo] copyAddOnToExtension addOnExtension=commerceorgaddon addOnResource=/web/src/ target=sstpimstorefront
      [echo] copyAddOnToExtension addOnExtension=commerceorgaddon addOnResource=/web/webroot/_ui target=sstpimstorefront
      [echo] copyAddOnToExtension addOnExtension=commerceorgaddon addOnResource=/web/webroot/_ui target=sstpimstorefront
@@ -1598,18 +1525,15 @@ build:
      [echo] copyAddOnToExtension addOnExtension=commerceorgaddon addOnResource=/web/webroot/WEB-INF target=sstpimstorefront
      [echo] sstpimstorefront_generate_wro_addons_xml for commerceorgaddon
      [echo] copyAddOnToExtension addOnExtension=commerceorgsamplesaddon addOnResource=/web/src/ target=sstpimstorefront
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstorefront_addon_commerceorgsamplesaddonsrctouch
      [echo] copyAddOnToExtension addOnExtension=commerceorgsamplesaddon addOnResource=/web/webroot/_ui target=sstpimstorefront
      [echo] copyAddOnToExtension addOnExtension=commerceorgsamplesaddon addOnResource=/web/webroot/WEB-INF target=sstpimstorefront
      [echo] sstpimstorefront_generate_wro_addons_xml for multicountrysampledataaddon
      [echo] copyAddOnToExtension addOnExtension=orderselfserviceaddon addOnResource=/web/src/ target=sstpimstorefront
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstorefront_addon_orderselfserviceaddonsrctouch
      [echo] copyAddOnToExtension addOnExtension=orderselfserviceaddon addOnResource=/web/webroot/_ui target=sstpimstorefront
      [echo] copyAddOnToExtension addOnExtension=orderselfserviceaddon addOnResource=/web/webroot/WEB-INF target=sstpimstorefront
      [echo] sstpimstorefront_generate_wro_addons_xml for pcmbackofficesamplesaddon
      [echo] sstpimstorefront_generate_wro_addons_xml for personalizationsearchsamplesaddon
      [echo] copyAddOnToExtension addOnExtension=textfieldconfiguratortemplateaddon addOnResource=/web/src/ target=sstpimstorefront
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstorefront_addon_textfieldconfiguratortemplateaddonsrctouch
      [echo] copyAddOnToExtension addOnExtension=textfieldconfiguratortemplateaddon addOnResource=/web/webroot/_ui target=sstpimstorefront
      [echo] copyAddOnToExtension addOnExtension=textfieldconfiguratortemplateaddon addOnResource=/web/webroot/WEB-INF target=sstpimstorefront
      [echo] sstpimstorefront_generate_wro_addons_xml for personalizationcms
@@ -1622,20 +1546,17 @@ build:
      [echo] sstpimstorefront_generate_wro_addons_xml for assistedserviceservices
      [echo] sstpimstorefront_generate_wro_addons_xml for assistedservicefacades
      [echo] copyAddOnToExtension addOnExtension=assistedservicestorefront addOnResource=/web/src/ target=sstpimstorefront
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstorefront_addon_assistedservicestorefrontsrctouch
      [echo] copyAddOnToExtension addOnExtension=assistedservicestorefront addOnResource=/web/webroot/_ui target=sstpimstorefront
      [echo] copyAddOnToExtension addOnExtension=assistedservicestorefront addOnResource=/web/webroot/WEB-INF target=sstpimstorefront
      [echo] sstpimstorefront_generate_wro_addons_xml for assistedservicestorefront
      [echo] sstpimstorefront_generate_wro_addons_xml for customerticketingfacades
      [echo] copyAddOnToExtension addOnExtension=customerticketingaddon addOnResource=/web/src/ target=sstpimstorefront
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstorefront_addon_customerticketingaddonsrctouch
      [echo] copyAddOnToExtension addOnExtension=customerticketingaddon addOnResource=/web/webroot/_ui target=sstpimstorefront
      [echo] copyAddOnToExtension addOnExtension=customerticketingaddon addOnResource=/web/webroot/WEB-INF target=sstpimstorefront
      [echo] sstpimstorefront_generate_wro_addons_xml for promotionengineservices
      [echo] sstpimstorefront_generate_wro_addons_xml for couponservices
      [echo] sstpimstorefront_generate_wro_addons_xml for assistedservicepromotionfacades
      [echo] copyAddOnToExtension addOnExtension=assistedservicepromotionaddon addOnResource=/web/src/ target=sstpimstorefront
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstorefront_addon_assistedservicepromotionaddonsrctouch
      [echo] copyAddOnToExtension addOnExtension=assistedservicepromotionaddon addOnResource=/web/webroot/_ui target=sstpimstorefront
      [echo] copyAddOnToExtension addOnExtension=assistedservicepromotionaddon addOnResource=/web/webroot/WEB-INF target=sstpimstorefront
      [echo] sstpimstorefront_generate_wro_addons_xml for couponfacades
@@ -1687,14 +1608,7 @@ build:
      [echo] sstpimstorefront_generate_wro_addons_xml for personalizationsearchsmartedit
      [echo] copyAddOnToExtension addOnExtension=smarteditaddon addOnResource=/web/src/ target=sstpimstorefront
      [echo] Compile addonsrc sstpimstorefront - smarteditaddon
-   [yjavac] Compiling 1 source file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/WEB-INF/classes
-   [yjavac] Note: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/addonsrc/smarteditaddon/de/hybris/platform/smarteditaddon/interceptors/beforeview/SmarteditaddonCmsPageBeforeViewHandler.java uses or overrides a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
      [echo] Compile addontestsrc sstpimstorefront - smarteditaddon
-   [yjavac] Compiling 1 source file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/testclasses
-   [yjavac] Note: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/addontestsrc/smarteditaddon/de/hybris/platform/smarteditaddon/interceptors/beforeview/SmarteditaddonCMSPageBeforeViewHandlerTest.java uses or overrides a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstorefront_addon_smarteditaddonsrctouch
      [echo] copyAddOnToExtension addOnExtension=smarteditaddon addOnResource=/web/src/ target=sstpimstorefront
      [echo] Compile addonsrc sstpimstorefront - smarteditaddon
      [echo] Compile addontestsrc sstpimstorefront - smarteditaddon
@@ -1720,7 +1634,6 @@ build:
      [echo] sstpimstorefront_generate_wro_addons_xml for sstdataimport
      [echo] sstpimstorefront_generate_wro_addons_xml for sstfacades
      [echo] copyAddOnToExtension addOnExtension=sstb2baccaddon addOnResource=/web/src/ target=sstpimstorefront
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstorefront_addon_sstb2baccaddonsrctouch
      [echo] copyAddOnToExtension addOnExtension=sstb2baccaddon addOnResource=/web/src/ target=sstpimstorefront
      [echo] copyAddOnToExtension addOnExtension=sstb2baccaddon addOnResource=/web/webroot/_ui target=sstpimstorefront
      [echo] copyAddOnToExtension addOnExtension=sstb2baccaddon addOnResource=/web/webroot/_ui target=sstpimstorefront
@@ -1739,25 +1652,23 @@ build:
      [echo] sstpimstorefront_generate_wro_addons_xml for sstreportingsso
      [echo] sstpimstorefront_generate_wro_addons_xml for sststorefrontsso
      [echo] sstpimstorefront_generate_wro_addons_xml for sstwebservices
-[testClassesScanner] Found 47 sstpimstorefront webtestclasses in 1.309 ms
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstpimstorefront_addontestsrctouch
      [echo] Version tag created...
     [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/WEB-INF/lib/sass-java-gems-3.4.20.0.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/sassgem
      [echo] Compiling sstpimstorefront scss files...
    [script] unsupported Java version "17", defaulting to 1.7
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/unified-footer-231031154534.min.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/external-231031154534.min.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/unified-header-231031154534.min.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/aorp-231031154534.min.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/heiko-dev-231031154534.min.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/styleguide-231031154534.min.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/cesar-dev-231031154534.min.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/psg-231031154534.min.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/fastener-finder-231031154534.min.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/main-231031154534.min.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/shared-studs-231031154534.min.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/ccrt-231031154534.min.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/pig-231031154534.min.css
+   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/unified-footer-231101133120.min.css
+   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/external-231101133120.min.css
+   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/unified-header-231101133120.min.css
+   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/aorp-231101133120.min.css
+   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/heiko-dev-231101133120.min.css
+   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/styleguide-231101133120.min.css
+   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/cesar-dev-231101133120.min.css
+   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/psg-231101133120.min.css
+   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/fastener-finder-231101133120.min.css
+   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/main-231101133120.min.css
+   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/shared-studs-231101133120.min.css
+   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/ccrt-231101133120.min.css
+   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/css/pig-231101133120.min.css
      [echo] Compiled all scss files
    [delete] Deleting directory /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/.sass-cache
     [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/temp/templates
@@ -2248,64 +2159,41 @@ build:
     [apply] java.xml/com.sun.org.apache.xpath.internal.objects=ALL-UNNAMED --add-exports java.xml/com.sun.org.apache.xpath.internal.objects=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-exports 
     [apply] java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED
      [echo] JS files compressed...
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : Add-On - product-231031154534.min.js
+     [echo] [JS dist] : Add-On - product-231101133120.min.js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : Add-On - tiling-231031154534.min.js
+     [echo] [JS dist] : Add-On - tiling-231101133120.min.js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : Add-On - wcms-231031154534.min.js
+     [echo] [JS dist] : Add-On - wcms-231101133120.min.js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : Add-On - stageMode-231031154534.min.js
+     [echo] [JS dist] : Add-On - stageMode-231101133120.min.js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : Add-On - fastener-finder-231031154534.min.js
+     [echo] [JS dist] : Add-On - fastener-finder-231101133120.min.js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : Add-On - styleguide-231031154534.min.js
+     [echo] [JS dist] : Add-On - styleguide-231101133120.min.js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : Add-On - productSubmittalGenerator-231031154534.min.js
+     [echo] [JS dist] : Add-On - productSubmittalGenerator-231101133120.min.js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : Add-On - aorp-231031154534.min.js
+     [echo] [JS dist] : Add-On - aorp-231101133120.min.js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : Add-On - ccrt-231031154534.min.js
+     [echo] [JS dist] : Add-On - ccrt-231101133120.min.js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : PIG - pig-231031154534.min.js
-     [echo] [JS dist] : Hybris - hybris-231031154534.min.js
+     [echo] [JS dist] : PIG - pig-231101133120.min.js
+     [echo] [JS dist] : Hybris - hybris-231101133120.min.js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : Handlebars Templates - templates-231031154534.min.js
+     [echo] [JS dist] : Handlebars Templates - templates-231101133120.min.js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : Handlebars Templates FF - templatesFF-231031154534.min.js
+     [echo] [JS dist] : Handlebars Templates FF - templatesFF-231101133120.min.js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : Handlebars Templates PSG - templatesPSG-231031154534.min.js
+     [echo] [JS dist] : Handlebars Templates PSG - templatesPSG-231101133120.min.js
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
-     [echo] [JS dist] : General - app-231031154534.min.js
-     [echo] [JS dist] : Fastener Finder Tool - appFF-231031154534.min.js
-     [echo] [JS dist] : PSG Tool - appPSG-231031154534.min.js
+     [echo] [JS dist] : General - app-231101133120.min.js
+     [echo] [JS dist] : Fastener Finder Tool - appFF-231101133120.min.js
+     [echo] [JS dist] : PSG Tool - appPSG-231101133120.min.js
      [echo] [JS dist] : ZeroClipboard.swf
      [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/dist
      [echo] Generated all JS dist files
    [delete] Deleting directory /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstpimstorefront/web/webroot/_ui/javascript/temp
      [echo] building extension 'sstreporting'...
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreporting
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreporting
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreporting/classes
-   [yjavac] Compiling 77 source files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreporting/classes
-   [yjavac] Note: Some input files use or override a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
-   [yjavac] Note: Some input files use unchecked or unsafe operations.
-   [yjavac] Note: Recompile with -Xlint:unchecked for details.
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreporting/web/webroot/WEB-INF/classes
-   [yjavac] Compiling 16 source files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreporting/web/webroot/WEB-INF/classes
-   [yjavac] Note: Some input files use or override a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
-   [yjavac] Note: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreporting/web/src/com/sst/hybris/filters/security/SSTReportingCatalogVersionUtil.java uses unchecked or unsafe operations.
-   [yjavac] Note: Recompile with -Xlint:unchecked for details.
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreporting/web/testclasses
-   [yjavac] Compiling 1 source file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreporting/web/testclasses
-   [yjavac] Note: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreporting/web/testsrc/com/sst/hybris/controllers/reporting/ReportAPIControllerTest.java uses or overrides a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstreporting_srctouch
-[testClassesScanner] Found 17 sstreporting testclasses in 522.6 μs
-[testClassesScanner] Found 1 sstreporting webtestclasses in 226.5 μs
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstreporting_testsrctouch
      [echo] sstreporting_after_build
      [echo] installing my sstreporting npm stuff
      [echo] fixing node/npm sstreporting symlinks and permissions
@@ -2318,9 +2206,6 @@ build:
      [echo]  ********** env path: /Users/jillella/.nvm/versions/node/v18.16.0/bin:/Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/apache-ant/bin:/Users/jillella/jdk-17.0.9.jdk/Contents/Home/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
      [echo]  ********** path: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/npm-ancillary/npmancillary/resources/npm/node/node-v18.17.1-darwin-x64/bin:/Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/npm-ancillary/npmancillary/resources/npm/node_modules/.bin:/Users/jillella/.nvm/versions/node/v18.16.0/bin:/Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/apache-ant/bin:/Users/jillella/jdk-17.0.9.jdk/Contents/Home/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
      [exec] Production Environment = true
-     [exec] `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`
-     [exec]     at Object.isModuleDeclaration (/Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreporting/web/webroot/_ui/node_modules/@babel/types/lib/validators/generated/index.js:2748:35)
-     [exec]     at PluginPass.enter (/Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreporting/web/webroot/_ui/node_modules/babel-plugin-emotion/lib/index.js:44:19)
      [exec] DEPRECATION WARNING: Passing a string to call() is deprecated and will be illegal
      [exec] in Sass 4.0. Use call(get-function("darken")) instead.
      [exec] 
@@ -3753,17 +3638,17 @@ build:
      [exec] assets by path fonts/ 7.25 MiB
      [exec]   assets by path fonts/*.svg 1.61 MiB 19 assets
      [exec]   assets by path fonts/*.eot 2.31 MiB
-     [exec]     asset fonts/581e96b6-0e09-44c4-a73e-a4018262ab80.eot 183 KiB [emitted] (auxiliary name: main)
+     [exec]     asset fonts/581e96b6-0e09-44c4-a73e-a4018262ab80.eot 183 KiB [compared for emit] (auxiliary name: main)
      [exec]     + 18 assets
      [exec]   assets by path fonts/*.ttf 2.31 MiB
-     [exec]     asset fonts/fdfa66bc-eaee-412a-b193-5b24b4c3b1aa.ttf 183 KiB [emitted] (auxiliary name: main)
+     [exec]     asset fonts/fdfa66bc-eaee-412a-b193-5b24b4c3b1aa.ttf 183 KiB [compared for emit] (auxiliary name: main)
      [exec]     + 18 assets
      [exec]   assets by path fonts/*.woff 1.03 MiB
-     [exec]     asset fonts/6a815361-6e47-4eaa-8b82-06b76eca6684.woff 72.7 KiB [emitted] (auxiliary name: main)
+     [exec]     asset fonts/6a815361-6e47-4eaa-8b82-06b76eca6684.woff 72.7 KiB [compared for emit] (auxiliary name: main)
      [exec]     + 18 assets
      [exec] assets by status 3.03 MiB [big]
-     [exec]   asset sstreporting.app.min.js 1.68 MiB [emitted] [minimized] [big] (name: main) 1 related asset
-     [exec]   asset main.app.min.css 1.36 MiB [emitted] [big] (name: main)
+     [exec]   asset sstreporting.app.min.js 1.68 MiB [compared for emit] [minimized] [big] (name: main) 1 related asset
+     [exec]   asset main.app.min.css 1.36 MiB [compared for emit] [big] (name: main)
      [exec] Entrypoint main [big] 3.03 MiB (7.25 MiB) = main.app.min.css 1.36 MiB sstreporting.app.min.js 1.68 MiB 76 auxiliary assets
      [exec] orphan modules 3.58 MiB (javascript) 81 bytes (runtime) [orphan] 169 modules
      [exec] runtime modules 1.25 KiB 6 modules
@@ -3796,283 +3681,10 @@ build:
      [exec] You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
      [exec] For more info visit https://webpack.js.org/guides/code-splitting/
      [exec] 
-     [exec] webpack 5.89.0 compiled with 3 warnings in 16257 ms
+     [exec] webpack 5.89.0 compiled with 3 warnings in 15187 ms
      [echo] building extension 'sstreportingsso'...
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreportingsso
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreportingsso
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreportingsso/web/webroot/WEB-INF/classes
-   [yjavac] Compiling 1 source file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreportingsso/web/webroot/WEB-INF/classes
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstreportingsso_srctouch
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstreportingsso/resources/sstreportingsso
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstreportingsso_testsrctouch
      [echo] building extension 'sststorefrontsso'...
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sststorefrontsso
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sststorefrontsso
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sststorefrontsso/web/webroot/WEB-INF/classes
-   [yjavac] Compiling 1 source file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sststorefrontsso/web/webroot/WEB-INF/classes
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sststorefrontsso_srctouch
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sststorefrontsso/resources/sststorefrontsso
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sststorefrontsso_testsrctouch
      [echo] building extension 'sstwebservices'...
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstwebservices
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstwebservices
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstwebservices/classes
-   [yjavac] Compiling 4 source files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstwebservices/classes
-   [yjavac] Note: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstwebservices/src/com/sst/webservices/constants/SstwebservicesConstants.java uses or overrides a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
-   [yjavac] Note: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstwebservices/gensrc/com/sst/webservices/jalo/GeneratedSstwebservicesManager.java uses unchecked or unsafe operations.
-   [yjavac] Note: Recompile with -Xlint:unchecked for details.
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstwebservices/web/webroot/WEB-INF/classes
-   [yjavac] Compiling 62 source files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstwebservices/web/webroot/WEB-INF/classes
-   [yjavac] Note: Some input files use or override a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
-   [yjavac] Note: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstwebservices/web/src/com/sst/webservices/pdfgen/layout/TextLayoutManager.java uses unchecked or unsafe operations.
-   [yjavac] Note: Recompile with -Xlint:unchecked for details.
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstwebservices/web/testclasses
-   [yjavac] Compiling 13 source files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstwebservices/web/testclasses
-   [yjavac] Note: Some input files use or override a deprecated API.
-   [yjavac] Note: Recompile with -Xlint:deprecation for details.
-   [yjavac] Note: Some input files use unchecked or unsafe operations.
-   [yjavac] Note: Recompile with -Xlint:unchecked for details.
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstwebservices/web/webroot/WEB-INF/classes
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstwebservices_srctouch
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstwebservices/resources/sstwebservices
-[testClassesScanner] Found 13 sstwebservices webtestclasses in 431.8 μs
-    [touch] Creating /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/touch/sstwebservices_testsrctouch
-   [delete] Deleting directory /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/bofs
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/build-tool/sass-java-gems-3.4.20.0.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/sassgem
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-core-22.05.17-RC1.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/cockpitng
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/backoffice-widgets-22.05.17-RC1.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/cockpitng
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpitadmin-22.05.17-RC1.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/cockpitng
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpitframework-22.05.17-RC1.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/cockpitng
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpit-standard-editors-22.05.17-RC1.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/cockpitng
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/web/webroot/WEB-INF/lib/cockpitwidgets-22.05.17-RC1.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/cockpitng
-     [copy] Copying 273 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 5 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 94 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 5 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-applications/pcmbackoffice/resources/backoffice/pcmbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/pcmbackoffice
-     [copy] Copying 13 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 13 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/platformbackoffice/resources/backoffice/platformbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/platformbackoffice
-     [copy] Copying 10 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 10 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng
-     [copy] Copying 5 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/api-registry/apiregistrybackoffice/resources/backoffice/apiregistrybackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/apiregistrybackoffice
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/base-commerce/basecommercebackoffice/resources/backoffice/basecommercebackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/basecommercebackoffice
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/sap-btp-extensions-integration/kymaintegrationbackoffice/resources/backoffice/kymaintegrationbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/kymaintegrationbackoffice
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/rule-engine/ruleenginebackoffice/resources/backoffice/ruleenginebackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/ruleenginebackoffice
-     [copy] Copying 2 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 2 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/rule-engine/rulebuilderbackoffice/resources/backoffice/rulebuilderbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/rulebuilderbackoffice
-     [copy] Copying 7 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/search-services/searchbackoffice/resources/backoffice/searchbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/searchbackoffice
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/search-and-navigation/solrfacetsearchbackoffice/resources/backoffice/solrfacetsearchbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/solrfacetsearchbackoffice
-     [copy] Copying 2 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 2 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/adaptive-search/adaptivesearchbackoffice/resources/backoffice/adaptivesearchbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/adaptivesearchbackoffice
-     [copy] Copying 14 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 14 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng
-     [copy] Copying 5 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/base-commerce/voucherbackoffice/resources/backoffice/voucherbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/voucherbackoffice
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/base-commerce/promotionsbackoffice/resources/backoffice/promotionsbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/promotionsbackoffice
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/commerce-services/commerceservicesbackoffice/resources/backoffice/commerceservicesbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/commerceservicesbackoffice
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/b2b-commerce/b2bcommercebackoffice/resources/backoffice/b2bcommercebackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/b2bcommercebackoffice
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/customer-service/customersupportbackoffice/resources/backoffice/customersupportbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/customersupportbackoffice
-     [copy] Copying 9 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 9 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/personalization/personalizationservicesbackoffice/resources/backoffice/personalizationservicesbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/personalizationservicesbackoffice
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/personalization/personalizationcmsbackoffice/resources/backoffice/personalizationcmsbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/personalizationcmsbackoffice
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/personalization-promotion/personalizationpromotionsbackoffice/resources/backoffice/personalizationpromotionsbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/personalizationpromotionsbackoffice
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/personalization-search/personalizationsearchbackoffice/resources/backoffice/personalizationsearchbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/personalizationsearchbackoffice
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/promotion-engine/promotionenginebackoffice/resources/backoffice/promotionenginebackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/promotionenginebackoffice
-     [copy] Copying 5 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/coupon/couponbackoffice/resources/backoffice/couponbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/couponbackoffice
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 1 file to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng
-    [unzip] Expanding: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/sstbackoffice/resources/backoffice/sstbackoffice_bof.jar into /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/temp/hybris/sstbackoffice
-     [copy] Copying 11 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated
-     [copy] Copying 11 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng
-     [echo] Compiling scss files...
-   [script] 2023-10-31T15:48:41.055-04:00 [main] WARN FilenoUtil : Native subprocess control requires open access to the JDK IO subsystem
-   [script] Pass '--add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED' to enable.
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/backoffice/scss/backoffice-variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/adaptivesearchbackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/apiregistrybackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/b2bcommercebackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/backoffice.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/basecommercebackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/cmsbackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/cockpit.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/cockpit_admin.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/cockpit_admin_ff_zk_fix.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/cockpit_admin_plumb.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/cockpit_admin_testing.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/cockpitng-icons.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/commerceservicesbackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/customersupportbackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/login.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/pcmbackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/personalizationservicesbackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/platformbackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/promotionenginebackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/rulebuilderbackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/ruleenginebackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/searchbackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/solrfacetsearchbackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/styles.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/themes/sap_horizon_morning/variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/themes/sap_quartz_dark/variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/themes/sap_quartz_light/variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/css/ticketsystembackoffice_common.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/cng/scss/cockpitng-globals.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/renderers/custommenu/custommenu.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/renderers/dndvalidation/dndvalidation.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/scss/acceleratorbackoffice-variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/scss/customersupportbackoffice-variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/scss/personalizationsearchbackoffice-variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/scss/searchbackoffice-variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/scss/sstbackoffice-variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/actions/createAction/create.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/actions/devtools/redeploy/redeploy.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/actions/devtools/reloadlabels/reloadlabels.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/actions/devtools/reseteverything/reseteverything.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/actions/dndconfig/dndconfig.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/actions/editAction/edit.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/actions/enumeration/enumeration.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/actions/indexerhotupdate/indexerhotupdate.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/actions/indexeroperations/indexeroperations.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/actions/labeledToggleAction/labeledtoggle.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/actions/logoAction/logoaction.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/actions/splitLayoutChooser/splitlayoutchooser.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/advancedSearch/advancedsearch.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/asCategorySelector/categorySelector.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/asMainController/mainController.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/asMainLayout/mainLayout.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/asNavigationContext/navigationContext.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/asSearchContext/searchContext.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/asSearchProfileContext/searchProfileContext.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/asSearchResultBrowser/searchResultBrowser.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/authorityGroupSelector/authorityGroupSelector.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/backofficePerspectiveChooser/perspectiveChooser.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/backofficePerspectiveContainer/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/backofficeUserRoleChooser/userRoleChooser.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/borderlayout/borderlayout.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/branding/customthemes/preview/preview.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/branding/customthemes/themes/themes.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/branding/logosetting/logosetting.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/branding/themesetting/themesetting.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/breadboardWidget/breadboardwidget.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/catalogSelector/catalogSelector.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/catalogversiondiff/catalogversiondiff.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/catalogversionreport/catalogversionreport.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/charts/facetchart/facetchart.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/charts/facetchart/scss/support/facetchart-variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/charts/genericChart/genericChart.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/collapsiblecontainer/collapsiblecontainer.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/collectionBrowser/collectionBrowser.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/collectionPreview/collectionPreview.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/collectioneditorarea/collectionEditorArea.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/compare/compare.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/configurableFlow/configurableflow.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/customersupportrefineby/customersupportrefineby.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/dashboard/dashboard.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/defaultEditorArea/anythingzoomer.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/defaultEditorArea/defaultEditorArea.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/defaultTabWidget/defaulttabwidget.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/duplicatedIdentifiersReport/duplicatereport.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/asConfigurableMultiReference/configurablemultireference.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/couponCodeEditor/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/decoratedEditor/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/defaultBooleanEditor/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/defaultDateEditor/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/defaultExtendedMultiReferenceEditor/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/defaultListEditor/defaultlist.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/defaultMapEditor/defaultmap.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/defaultPasswordEditor/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/defaultReferenceEditor/defaultreferenceeditor.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/defaultTimeEditor/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/dndFileUploadEditor/dndfileupload.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/dndFileUploadEditor/scss/components/dndfileupload-defaults.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/dndFileUploadEditor/scss/components/dndfileupload-single-line-mode.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/dndFileUploadEditor/scss/support/dndfileupload-variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/instantEditor/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/multidndFileUploadEditor/multidndfileupload.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/pkReference/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/sstFullTextSearchSort/sstFullTextSearchSort.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/sstNavigationContext/sstNavigationContext.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/sstSearchResultBrowser/sstSearchResultBrowser.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/editors/wysiwygEditor/validationstyles.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/explorerTreeWidget/explorertree.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/extendedSplitLayout/extendedsplitlayout.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/flexiblelayout/flexiblelayout.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/fullTextSearch/fulltextsearch.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/globalLinks/globalLinks.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/imagecropper/imagecropper.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/inputTestWidget/inputtestwidget.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/itemComments/itemcomments.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/listlayout/listlayout.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/masterDetail/masterDetail.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/navigationhistory/navigationhistory.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/networkchart/networkchart.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/notificationarea/notificationarea.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/order/cancelorder/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/outputTestWidget/outputtestwidget.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/permissionlegend/permissionlegend.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/permissionmanagementgroup/permissionmanagementgroup.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/processes/processes.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/quickList/quicklist.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/quickToggleLocale/quickToggleLocale.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/referenceadvancedsearch/referenceadvancedsearch.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/referenceadvancedsearchgroup/referenceadvancedsearchgroup.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/refineBy/refineby.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/releaseinfo/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/releaseinfo/release-info-variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/returns/cancelreturnpopup/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/returns/createreturnrequest/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/savedqueries/savedQueriesWidget.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/selectivesync/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/sessionContext/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/shortcuts/scss/support/shortcuts-variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/shortcuts/shortcuts.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/simplelist/simplelist-variables.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/simplelist/simplelist.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/stats/productstats/productstats.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/summaryView/summaryView.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/surveylauncher/surveylauncher.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/syncpopup/syncpopup.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/systemBarWidget/systembar.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/textSearch/textsearch.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/toolbar/toolbar.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/userProfile/appearanceContainer/appearanceContainer.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/userProfile/appearanceSetting/appearanceSetting.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/userProfile/localeSetting/localeSetting.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/userProfile/passwordSetting/passwordSetting.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/userProfile/profileSetting/profileSetting.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/userProfile/toggle/toggle.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/valueChooser/valueChooser.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/viewswitcher/default.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/workflowActions/workflowactions.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/workflows/workflows.css
-   [script] [SASS compiled] : /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/backoffice-framework/backoffice/resources/backoffice/generated/cockpitng/widgets/workflowsearch/workflowsearch.css
-     [echo] Compiled all scss files
-   [delete] Deleting directory /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/.sass-cache
      [echo] Validation - Step 2: JaloOnly Types
 [ycheckjalotypes] checking file: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/ext/processing/resources/processing-items.xml
 [ycheckjalotypes] checking file: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/integration-apis/odata2webservices/resources/odata2webservices-items.xml
@@ -4253,15 +3865,13 @@ build:
 [ycheckjalotypes] checking file: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/rule-engine/rulebuilderbackoffice/resources/rulebuilderbackoffice-items.xml
 [ycheckjalotypes] checking file: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/modules/b2b-commerce/b2bcommerce/resources/b2bcommerce-items.xml
 [ycheckjalotypes] checking file: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/hystrix/resources/hystrix-items.xml
-[stopwatch] [build: 4:15.478 sec]
+[stopwatch] [build: 1:54.310 sec]
 
 server:
      [echo] 
      [echo] Configuring server at /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/tomcat
      [echo] Using config set at /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/config/tomcat
      [echo] 			
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/log/tomcat
-    [mkdir] Created dir: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/data/media
      [echo] copying from /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/config/tomcat to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/tomcat
      [copy] Copying 13 files to /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/tomcat
 [ygeneratetomcatcontexts] Overriding sstpimstorefront webroot for local server generation
@@ -4278,13 +3888,13 @@ updatesystem:
      [java] NOTE: Picked up JDK_JAVA_OPTIONS: --add-opens java.xml/com.sun.org.apache.xpath.internal=ALL-UNNAMED --add-exports java.xml/com.sun.org.apache.xpath.internal=ALL-UNNAMED --add-opens 
      [java] java.xml/com.sun.org.apache.xpath.internal.objects=ALL-UNNAMED --add-exports java.xml/com.sun.org.apache.xpath.internal.objects=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-exports 
      [java] java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED
-     [java] ---------------------------------------------------------------Loading additional classes from: [file:/Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/resources/libpatches/velocity-engine-patch-2.3-1.jar]
-     [java] 
+     [java] ---------------------------------------------------------------
      [java] Warning: you're using at least one deprecated extension!
      [java] Please note that they may not be available in future releases.
      [java] 
      [java] Deprecated extensions: [acceleratorstorefrontcommons, acceleratorwebservicesaddon, adaptivesearchsamplesaddon, addonsupport, admincockpit, assistedservicepromotionaddon, assistedservicestorefront, cmscockpit, cmsoccaddon, cockpit, commerceorgaddon, commerceorgsamplesaddon, customerticketingaddon, multicountrysampledataaddon, orderselfserviceaddon, pcmbackofficesamplesaddon, personalizationpromotionssampledataaddon, personalizationsampledataaddon, personalizationsearchsamplesaddon, personalizationyprofilesampledataaddon, promotionenginesamplesaddon, smarteditaddon, textfieldconfiguratortemplateaddon]
      [java] ---------------------------------------------------------------
+     [java] Loading additional classes from: [file:/Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/resources/libpatches/velocity-engine-patch-2.3-1.jar]
      [java] [PlatformInPlaceClassLoader@42d3bd8b] warning javax.* types are not being woven because the weaver option '-Xset:weaveJavaxPackages=true' has not been specified
      [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type org.apache.commons.csv.CSVFormat
      [java] when weaving type org.apache.logging.log4j.core.layout.AbstractCsvLayout
@@ -4352,7 +3962,7 @@ updatesystem:
      [java] INFO  [main] [DefaultBroadcastService] Started message broadcast service:
      [java] clustering (enabled:false)
      [java] sending synchronously - no queue
-     [java] methods [<loopback>::de.hybris.platform.cluster.LoopBackBroadcastMethod@614cd187]
+     [java] methods [<loopback>::de.hybris.platform.cluster.LoopBackBroadcastMethod@34070bd2]
      [java] INFO  [main] [hybrisserver] 
      [java] INFO  [main] [hybrisserver] *****************************************************************
      [java] INFO  [main] [hybrisserver] 
@@ -4598,124 +4208,125 @@ updatesystem:
      [java] INFO  [main] [YTypeSystemLoader] Modification of the table name of deployment de.hybris.platform.persistence.type.MapType from maptypes2 to MapTypes won't be performed, be aware that the old deployment will be still used (even it is not reflected in the code base)
      [java] INFO  [main] [YTypeSystemLoader] Modification of the table name of deployment de.hybris.platform.persistence.type.AttributeDescriptor from attributedescriptors2 to AttributeDescriptors won't be performed, be aware that the old deployment will be still used (even it is not reflected in the code base)
      [java] INFO  [main] [YTypeSystemLoader] Modification of the table name of deployment de.hybris.platform.persistence.enumeration.EnumerationValue from enumerationvalues2 to EnumerationValues won't be performed, be aware that the old deployment will be still used (even it is not reflected in the code base)
-     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (core) located in (global-core-spring.xml,core-cache.xml,global-servicelayer-spring.xml,global-core-jmx-spring.xml,global-statistics-spring.xml) took: (140.2 ms)
-     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (apiregistryservices) located in (apiregistryservices-cache-spring.xml) took: (11.85 ms)
-     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (backoffice) located in (global-backoffice-spring.xml) took: (12.16 ms)
-     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (cockpit) located in (global-cockpit-spring.xml) took: (7.064 ms)
-     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (outboundservices) located in (outboundservices-global-spring.xml) took: (8.861 ms)
-     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (sapcore) located in (global-sapcorejco-spring.xml) took: (8.214 ms)
-     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (adaptivesearch) located in (global-adaptivesearch-spring.xml) took: (8.755 ms)
-     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (solrfacetsearch) located in (global-solrfacetsearch-spring.xml) took: (9.032 ms)
-     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (solrserver) located in (global-solrserver-spring.xml) took: (6.869 ms)
-     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (cmsfacades) located in (cmsfacades-cache.xml) took: (10.45 ms)
-     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (acceleratorcms) located in (acceleratorcms-cache-spring.xml) took: (10.77 ms)
-     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (webhookservices) located in (webhookservices-cache-spring.xml) took: (10.60 ms)
-     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (sapcorebol) located in (global-sapcorebol-cache.xml) took: (7.543 ms)
+     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (core) located in (global-core-spring.xml,core-cache.xml,global-servicelayer-spring.xml,global-core-jmx-spring.xml,global-statistics-spring.xml) took: (128.2 ms)
+     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (apiregistryservices) located in (apiregistryservices-cache-spring.xml) took: (11.65 ms)
+     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (backoffice) located in (global-backoffice-spring.xml) took: (10.83 ms)
+     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (cockpit) located in (global-cockpit-spring.xml) took: (7.760 ms)
+     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (outboundservices) located in (outboundservices-global-spring.xml) took: (9.577 ms)
+     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (sapcore) located in (global-sapcorejco-spring.xml) took: (9.544 ms)
+     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (adaptivesearch) located in (global-adaptivesearch-spring.xml) took: (8.708 ms)
+     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (solrfacetsearch) located in (global-solrfacetsearch-spring.xml) took: (8.054 ms)
+     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (solrserver) located in (global-solrserver-spring.xml) took: (6.134 ms)
+     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (cmsfacades) located in (cmsfacades-cache.xml) took: (8.439 ms)
+     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (acceleratorcms) located in (acceleratorcms-cache-spring.xml) took: (10.52 ms)
+     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (webhookservices) located in (webhookservices-cache-spring.xml) took: (9.134 ms)
+     [java] INFO  [main] [HybrisContextFactory] Loading <<global>> spring config from extension (sapcorebol) located in (global-sapcorebol-cache.xml) took: (7.209 ms)
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.JndiSelector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.JndiSelector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.JndiSelector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.Selector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.Selector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.Selector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.NullSelector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.NullSelector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.NullSelector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.FactorySelector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.FactorySelector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.FactorySelector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.ClassSelector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.ClassSelector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
+     [java] when weaving type net.sf.ehcache.transaction.manager.selector.ClassSelector
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.Transaction
+     [java] when weaving type net.sf.ehcache.transaction.xa.XATransactionStore
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.Transaction
+     [java] when weaving type net.sf.ehcache.transaction.xa.XATransactionStore
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
+     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.Transaction
+     [java] when weaving type net.sf.ehcache.transaction.xa.XATransactionStore
+     [java] when weaving classes 
+     [java] when weaving 
+     [java]  [Xlint:cantFindType]
      [java] INFO  [main] [EHCacheRegion] EHCacheRegion objectLabelCacheRegion, eviction policy LFU, size 10000
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.JndiSelector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.JndiSelector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.JndiSelector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.Selector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.Selector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.Selector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.NullSelector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.NullSelector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.NullSelector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.FactorySelector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.FactorySelector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.FactorySelector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.ClassSelector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving type net.sf.ehcache.transaction.manager.selector.ClassSelector
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.TransactionManager
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.Transaction
-     [java] when weaving type net.sf.ehcache.transaction.xa.XATransactionStore
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.Transaction
-     [java] when weaving type net.sf.ehcache.transaction.xa.XATransactionStore
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
-     [java] [PlatformInPlaceClassLoader@42d3bd8b] error can't determine implemented interfaces of missing type javax.transaction.Transaction
-     [java] when weaving type net.sf.ehcache.transaction.xa.XATransactionStore
-     [java] when weaving classes 
-     [java] when weaving 
-     [java]  [Xlint:cantFindType]
      [java] INFO  [main] [EHCacheRegion] EHCacheRegion objectShortLabelCacheRegion, eviction policy LFU, size 2000
      [java] INFO  [main] [EHCacheRegion] EHCacheRegion objectDescriptionCacheRegion, eviction policy LFU, size 2000
      [java] INFO  [main] [EHCacheRegion] EHCacheRegion objectIconPathCacheRegion, eviction policy LFU, size 2000
@@ -4798,11 +4409,11 @@ updatesystem:
      [java] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1872) ~[spring-beans-5.3.30.jar:5.3.30]
      [java] 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.30.jar:5.3.30]
      [java] 	... 46 more
-     [java] INFO  [main] [HybrisContextFactory] - Refreshing SpringContext (Global context) took: (505.7 ms)
-     [java] INFO  [main] [HybrisContextFactory] Initializing <<global>> Spring ApplicationContext took: (1.054 s)
-     [java] INFO  [main] [HybrisContextFactory] Initializing <<global>> Spring ApplicationContext took: (67.17 μs)
+     [java] INFO  [main] [HybrisContextFactory] - Refreshing SpringContext (Global context) took: (491.9 ms)
+     [java] INFO  [main] [HybrisContextFactory] Initializing <<global>> Spring ApplicationContext took: (1.012 s)
+     [java] INFO  [main] [HybrisContextFactory] Initializing <<global>> Spring ApplicationContext took: (76.38 μs)
      [java] shutting down hybris registry..
-     [java] INFO  [ShutdownHookThread] [HybrisContextFactory] Initializing <<global>> Spring ApplicationContext took: (12.08 μs)
+     [java] INFO  [ShutdownHookThread] [HybrisContextFactory] Initializing <<global>> Spring ApplicationContext took: (10.25 μs)
      [java] ERROR [ShutdownHookThread] [JMXBeanLoader] Can't unregister jmxbeans on shutdown of the tenant <<master>>
      [java] org.springframework.beans.FatalBeanException: Context hybris Global Context Factory  couldn't  be created correctly due to, Error creating bean with name 'sapCoreDefaultJCoSessionReferenceProviderLifecycle' defined in class path resource [global-sapcorejco-spring.xml]: Invocation of init method failed; nested exception is java.lang.ExceptionInInitializerError: JCo initialization failed with java.lang.UnsatisfiedLinkError: Can't load library: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/hybris-commerce-integrations/sap-framework-core/sapcorejco/lib/darwinintel64/libsapjco3.dylib
      [java] 	at de.hybris.platform.core.HybrisContextFactory.build(HybrisContextFactory.java:308) ~[coreserver.jar:?]
@@ -4937,15 +4548,15 @@ updatesystem:
      [java] 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
      [java] 	at de.hybris.bootstrap.loader.Loader.execute(Loader.java:144)
      [java] 	at de.hybris.bootstrap.loader.Loader.main(Loader.java:108)
-     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Using default implementation of TenantStartupNotifier for tenant <<junit>>[1838056807]
-     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Instantiating de.hybris.platform.core.BlockingTenantStartupNotifier for tenant <<junit>>[1838056807].
-     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Using default implementation of TenantStartupNotifier for tenant <<t1>>[-1066868577]
-     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Instantiating de.hybris.platform.core.BlockingTenantStartupNotifier for tenant <<t1>>[-1066868577].
-     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Using default implementation of TenantStartupNotifier for tenant <<t2>>[1334623177]
-     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Instantiating de.hybris.platform.core.BlockingTenantStartupNotifier for tenant <<t2>>[1334623177].
-     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Using default implementation of TenantStartupNotifier for tenant <<foo>>[-732289253]
-     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Instantiating de.hybris.platform.core.BlockingTenantStartupNotifier for tenant <<foo>>[-732289253].
-     [java] INFO  [ShutdownHookThread] [HybrisContextFactory] Initializing <<global>> Spring ApplicationContext took: (22.79 μs)
+     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Using default implementation of TenantStartupNotifier for tenant <<junit>>[-1904272594]
+     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Instantiating de.hybris.platform.core.BlockingTenantStartupNotifier for tenant <<junit>>[-1904272594].
+     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Using default implementation of TenantStartupNotifier for tenant <<t1>>[-1722521324]
+     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Instantiating de.hybris.platform.core.BlockingTenantStartupNotifier for tenant <<t1>>[-1722521324].
+     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Using default implementation of TenantStartupNotifier for tenant <<t2>>[-428979927]
+     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Instantiating de.hybris.platform.core.BlockingTenantStartupNotifier for tenant <<t2>>[-428979927].
+     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Using default implementation of TenantStartupNotifier for tenant <<foo>>[-263516219]
+     [java] INFO  [ShutdownHookThread] [TenantStartupNotifier] Instantiating de.hybris.platform.core.BlockingTenantStartupNotifier for tenant <<foo>>[-263516219].
+     [java] INFO  [ShutdownHookThread] [HybrisContextFactory] Initializing <<global>> Spring ApplicationContext took: (45.96 μs)
      [java] ERROR [ShutdownHookThread] [RegionCacheAdapter] Unable to clear cache. Failed on region null. Last key null null
      [java] org.springframework.beans.FatalBeanException: Context hybris Global Context Factory  couldn't  be created correctly due to, Error creating bean with name 'sapCoreDefaultJCoSessionReferenceProviderLifecycle' defined in class path resource [global-sapcorejco-spring.xml]: Invocation of init method failed; nested exception is java.lang.ExceptionInInitializerError: JCo initialization failed with java.lang.UnsatisfiedLinkError: Can't load library: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/hybris-commerce-integrations/sap-framework-core/sapcorejco/lib/darwinintel64/libsapjco3.dylib
      [java] 	at de.hybris.platform.core.HybrisContextFactory.build(HybrisContextFactory.java:308) ~[coreserver.jar:?]
@@ -4982,7 +4593,7 @@ updatesystem:
      [java] 	at java.lang.Thread.run(Thread.java:842) ~[?:?]
      [java] 	at de.hybris.platform.core.threadregistry.RegistrableThread.internalRun(RegistrableThread.java:134) ~[coreserver.jar:?]
      [java] 	at de.hybris.platform.core.threadregistry.RegistrableThread.run(RegistrableThread.java:124) ~[coreserver.jar:?]
-     [java] INFO  [ShutdownHookThread] [HybrisContextFactory] Initializing <<global>> Spring ApplicationContext took: (10.13 μs)
+     [java] INFO  [ShutdownHookThread] [HybrisContextFactory] Initializing <<global>> Spring ApplicationContext took: (10.33 μs)
      [java] ERROR [ShutdownHookThread] [RegionCacheAdapter] Unable to clear cache. Failed on region null. Last key null null
      [java] org.springframework.beans.FatalBeanException: Context hybris Global Context Factory  couldn't  be created correctly due to, Error creating bean with name 'sapCoreDefaultJCoSessionReferenceProviderLifecycle' defined in class path resource [global-sapcorejco-spring.xml]: Invocation of init method failed; nested exception is java.lang.ExceptionInInitializerError: JCo initialization failed with java.lang.UnsatisfiedLinkError: Can't load library: /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/core-customize/hybris/bin/custom/hybris-commerce-integrations/sap-framework-core/sapcorejco/lib/darwinintel64/libsapjco3.dylib
      [java] 	at de.hybris.platform.core.HybrisContextFactory.build(HybrisContextFactory.java:308) ~[coreserver.jar:?]
@@ -5028,5 +4639,5 @@ BUILD FAILED
 /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/resources/ant/platformadministration.xml:99: The following error occurred while executing this line:
 /Users/jillella/strongtie-repos/strongtie-pcm/strongtie-pcm/hybris/bin/platform/resources/ant/antmacros.xml:680: Java returned: 255
 
-Total time: 4 minutes 27 seconds
+Total time: 2 minutes 5 seconds
 jillella@Venkatas-MBP platform % 
