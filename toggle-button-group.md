@@ -3,16 +3,16 @@ Here are some test cases that QA can perform to test the expected behavior of th
 1. Test Case: Default State
 - Description: Verify that no ToggleButtons are selected by default when the ToggleButtonGroup is rendered.
 - Steps:
-1. Render the ToggleButtonGroup component with multiple ToggleButtons.
-2. Check the selected state of each button.
+    1. Render the ToggleButtonGroup component with multiple ToggleButtons.
+    2. Check the selected state of each button.
 - Expected Result: No ToggleButtons should be selected by default.
 
 2. Test Case: Single Selection Mode
 - Description: Verify that only one ToggleButton can be selected at a time in single selection mode.
 - Steps:
-1. Render the ToggleButtonGroup component with multiple ToggleButtons and the multi property set to false.
-2. Click on multiple buttons.
-3. Check the selected state of each button.
+    1. Render the ToggleButtonGroup component with multiple ToggleButtons and the multi property set to false.
+    2. Click on multiple buttons.
+    3. Check the selected state of each button.
 - Expected Result: Only the last clicked button should be selected.
 
 3. Test Case: Multi Selection Mode
